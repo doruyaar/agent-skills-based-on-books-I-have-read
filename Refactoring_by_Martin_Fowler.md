@@ -1,7 +1,3 @@
----
-alwaysApply: true
----
-
 ## Code Smells to Avoid (Based on Martin Fowler's Refactoring)
 
 ### Naming & Clarity
