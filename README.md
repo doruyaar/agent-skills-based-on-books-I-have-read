@@ -11,6 +11,7 @@ A small collection of tool-agnostic agent rule files, each distilling one engine
 | [`Designing_Data-Intensive_Apps_by_Martin_Kleppmann.md`](Designing_Data-Intensive_Apps_by_Martin_Kleppmann.md) | *Designing Data-Intensive Applications* — Martin Kleppmann. The foundations of scalable, reliable data systems. | Designing systems around data: storage, scaling, consistency, and distribution. |
 | [`Refactoring_by_Martin_Fowler.md`](Refactoring_by_Martin_Fowler.md) | *Refactoring* — Martin Fowler. Code smells and the refactorings that fix them. | Cleaning up existing code and keeping new code readable and maintainable. |
 | [`Dont_Make_Me_Think_by_Steve_Krug.md`](Dont_Make_Me_Think_by_Steve_Krug.md) | *Don't Make Me Think* — Steve Krug. Common-sense web usability and interface design. | Building frontend UI/UX: navigation, scannable layouts, forms, and accessibility. |
+| [`The_Pragmatic_Programmer_by_David_Thomas_and_Andrew_Hunt.md`](The_Pragmatic_Programmer_by_David_Thomas_and_Andrew_Hunt.md) | *The Pragmatic Programmer* — David Thomas & Andrew Hunt. Timeless engineering philosophy and craftsmanship. | Writing decoupled, testable, adaptable code and making pragmatic day-to-day design decisions. |
 
 ## How to use
 
