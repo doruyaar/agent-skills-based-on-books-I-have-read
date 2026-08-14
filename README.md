@@ -10,6 +10,7 @@ A small collection of tool-agnostic agent rule files, each distilling one engine
 | [`The_Engineers_Guide_to_RAG_by_Shivani_Virdi.md`](The_Engineers_Guide_to_RAG_by_Shivani_Virdi.md) | *The Engineer's Guide to RAG* — Shivani Virdi. Practical retrieval-augmented generation. | Building or improving a RAG pipeline: chunking, retrieval, and grounded answers. |
 | [`Designing_Data-Intensive_Apps_by_Martin_Kleppmann.md`](Designing_Data-Intensive_Apps_by_Martin_Kleppmann.md) | *Designing Data-Intensive Applications* — Martin Kleppmann. The foundations of scalable, reliable data systems. | Designing systems around data: storage, scaling, consistency, and distribution. |
 | [`Refactoring_by_Martin_Fowler.md`](Refactoring_by_Martin_Fowler.md) | *Refactoring* — Martin Fowler. Code smells and the refactorings that fix them. | Cleaning up existing code and keeping new code readable and maintainable. |
+| [`Dont_Make_Me_Think_by_Steve_Krug.md`](Dont_Make_Me_Think_by_Steve_Krug.md) | *Don't Make Me Think* — Steve Krug. Common-sense web usability and interface design. | Building frontend UI/UX: navigation, scannable layouts, forms, and accessibility. |
 
 ## How to use
 
