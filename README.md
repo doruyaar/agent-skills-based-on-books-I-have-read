@@ -18,8 +18,8 @@ A small collection of tool-agnostic agent rule files, each distilling one engine
 Each file is grouped, bullet-point Markdown you can drop into whichever mechanism your tool uses:
 
 - **Cursor** — copy into `.cursor/rules/` (add frontmatter if you want `alwaysApply`/`globs`).
-- **GitHub Copilot** — copy into `.github/copilot-instructions.md`.
-- **Claude** — copy into `CLAUDE.md`.
+- **GitHub Copilot** — copy into `.github/rule_name.md`.
+- **Agent-agnostic** — copy into `.agents/` (or reference the file directly from your agent config).
 
 ## Naming convention
 
