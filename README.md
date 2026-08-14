@@ -20,7 +20,6 @@ Each file is grouped, bullet-point Markdown you can drop into whichever mechanis
 - **Cursor** — copy into `.cursor/rules/` (add frontmatter if you want `alwaysApply`/`globs`).
 - **GitHub Copilot** — copy into `.github/copilot-instructions.md`.
 - **Claude** — copy into `CLAUDE.md`.
-- **Any assistant** — paste the file (or link it) into your prompt or context.
 
 ## Naming convention
 
