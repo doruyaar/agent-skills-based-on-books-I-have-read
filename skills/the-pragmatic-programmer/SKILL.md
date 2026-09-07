@@ -1,3 +1,19 @@
+---
+name: the-pragmatic-programmer
+description: >-
+  Engineering philosophy and craftsmanship rules distilled from David Thomas
+  and Andrew Hunt's book "The Pragmatic Programmer": ETC, DRY, orthogonality,
+  reversibility, tracer bullets, design by contract, crash early, decoupling,
+  and testing as design feedback. Use when making day-to-day design decisions,
+  writing decoupled and testable code, weighing an architectural tradeoff, or
+  when the user asks for "The Pragmatic Programmer" or Dave Thomas and Andy
+  Hunt's guidance.
+---
+
+# The Pragmatic Programmer — David Thomas & Andrew Hunt
+
+Rules distilled from *The Pragmatic Programmer* by David Thomas and Andrew Hunt.
+
 ## Core Philosophies (The Pragmatic Mindset)
 
 ### 1. Provide Options, Don't Make Lame Excuses
