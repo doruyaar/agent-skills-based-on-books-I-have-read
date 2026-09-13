@@ -4,10 +4,8 @@ description: >-
   Code smells and the refactorings that fix them, distilled from Martin
   Fowler's book "Refactoring": naming, duplication, long functions, coupling,
   conditionals, inheritance, plus the full refactoring catalog (extract, move,
-  encapsulate, replace conditional with polymorphism, and more). Use when
-  cleaning up existing code, reviewing for maintainability, untangling coupling
-  or nested conditionals, naming things, or when the user asks for
-  "Refactoring" or Martin Fowler's guidance.
+  encapsulate, replace conditional with polymorphism, and more). Use only
+  when the user explicitly asks for "Refactoring" or Martin Fowler's guidance.
 ---
 
 # Refactoring — Martin Fowler

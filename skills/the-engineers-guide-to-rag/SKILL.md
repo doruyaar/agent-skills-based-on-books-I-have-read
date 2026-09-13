@@ -3,10 +3,8 @@ name: the-engineers-guide-to-rag
 description: >-
   Practical retrieval-augmented generation rules distilled from Shivani Virdi's
   book "The Engineer's Guide to RAG": ingestion, chunking, hybrid retrieval,
-  re-ranking, grounded answers, and RAG evaluation. Use when building or
-  improving a RAG pipeline, debugging retrieval quality, choosing chunking or
-  embedding strategies, or when the user asks for "The Engineer's Guide to RAG"
-  or Shivani Virdi's guidance.
+  re-ranking, grounded answers, and RAG evaluation. Use only when the user
+  explicitly asks for "The Engineer's Guide to RAG" or Shivani Virdi's guidance.
 ---
 
 # The Engineer's Guide to RAG — Shivani Virdi

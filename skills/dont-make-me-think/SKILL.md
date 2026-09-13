@@ -4,9 +4,8 @@ description: >-
   Common-sense web usability and interface design rules distilled from Steve
   Krug's book "Don't Make Me Think": self-evident pages, scannable layouts,
   navigation and wayfinding, home page clarity, forms, mobile, goodwill, and
-  accessibility. Use when building or reviewing frontend UI/UX — HTML, CSS,
-  JavaScript, React components, navigation, or forms — or when the user asks
-  for "Don't Make Me Think" or Steve Krug's guidance.
+  accessibility. Use only when the user explicitly asks for "Don't Make Me
+  Think" or Steve Krug's guidance.
 ---
 
 # Don't Make Me Think — Steve Krug

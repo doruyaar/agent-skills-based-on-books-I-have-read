@@ -4,9 +4,7 @@ description: >-
   Rules for scalable, reliable, maintainable data systems distilled from Martin
   Kleppmann's book "Designing Data-Intensive Applications": storage, data
   modeling, partitioning, replication, consistency, transactions, streaming,
-  and fault tolerance. Use when designing systems around data — choosing a data
-  model, scaling, partitioning, handling consistency or replication lag, or
-  building batch and stream pipelines — or when the user asks for "Designing
+  and fault tolerance. Use only when the user explicitly asks for "Designing
   Data-Intensive Applications", "DDIA", or Martin Kleppmann's guidance.
 ---
 

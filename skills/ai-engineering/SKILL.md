@@ -3,10 +3,8 @@ name: ai-engineering
 description: >-
   Engineering rules for building reliable applications on top of foundation
   models, distilled from Chip Huyen's book "AI Engineering": prompts as
-  versioned assets, structured outputs, evaluation, and reliability. Use when
-  working with LLMs — designing prompts, validating model output, building eval
-  suites, managing context, or hardening an AI feature for production — or when
-  the user asks for "AI Engineering" or Chip Huyen's guidance.
+  versioned assets, structured outputs, evaluation, and reliability. Use only
+  when the user explicitly asks for "AI Engineering" or Chip Huyen's guidance.
 ---
 
 # AI Engineering — Chip Huyen
