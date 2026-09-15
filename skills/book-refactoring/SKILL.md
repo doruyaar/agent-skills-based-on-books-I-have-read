@@ -1,5 +1,5 @@
 ---
-name: refactoring
+name: book-refactoring
 description: >-
   Code smells and the refactorings that fix them, distilled from Martin
   Fowler's book "Refactoring": naming, duplication, long functions, coupling,

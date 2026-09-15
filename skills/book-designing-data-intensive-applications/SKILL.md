@@ -1,5 +1,5 @@
 ---
-name: designing-data-intensive-applications
+name: book-designing-data-intensive-applications
 description: >-
   Rules for scalable, reliable, maintainable data systems distilled from Martin
   Kleppmann's book "Designing Data-Intensive Applications": storage, data

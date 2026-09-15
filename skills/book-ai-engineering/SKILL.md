@@ -1,5 +1,5 @@
 ---
-name: ai-engineering
+name: book-ai-engineering
 description: >-
   Engineering rules for building reliable applications on top of foundation
   models, distilled from Chip Huyen's book "AI Engineering": prompts as

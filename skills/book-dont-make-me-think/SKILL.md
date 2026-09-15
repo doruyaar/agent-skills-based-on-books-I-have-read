@@ -1,5 +1,5 @@
 ---
-name: dont-make-me-think
+name: book-dont-make-me-think
 description: >-
   Common-sense web usability and interface design rules distilled from Steve
   Krug's book "Don't Make Me Think": self-evident pages, scannable layouts,

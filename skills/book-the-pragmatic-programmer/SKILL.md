@@ -1,5 +1,5 @@
 ---
-name: the-pragmatic-programmer
+name: book-the-pragmatic-programmer
 description: >-
   Engineering philosophy and craftsmanship rules distilled from David Thomas
   and Andrew Hunt's book "The Pragmatic Programmer": ETC, DRY, orthogonality,

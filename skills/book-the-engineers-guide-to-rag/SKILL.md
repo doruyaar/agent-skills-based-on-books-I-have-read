@@ -1,5 +1,5 @@
 ---
-name: the-engineers-guide-to-rag
+name: book-the-engineers-guide-to-rag
 description: >-
   Practical retrieval-augmented generation rules distilled from Shivani Virdi's
   book "The Engineer's Guide to RAG": ingestion, chunking, hybrid retrieval,

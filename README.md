@@ -8,12 +8,12 @@ Each skill is a plain `SKILL.md` folder following the open Agent Skills format, 
 
 | Skill | Book & Author | Good to use when |
 | --- | --- | --- |
-| [`ai-engineering`](skills/ai-engineering/SKILL.md) | *AI Engineering* — Chip Huyen. Building reliable applications on top of foundation models. | Working with LLMs: prompts, structured outputs, evaluation, and reliability. |
-| [`the-engineers-guide-to-rag`](skills/the-engineers-guide-to-rag/SKILL.md) | *The Engineer's Guide to RAG* — Shivani Virdi. Practical retrieval-augmented generation. | Building or improving a RAG pipeline: chunking, retrieval, and grounded answers. |
-| [`designing-data-intensive-applications`](skills/designing-data-intensive-applications/SKILL.md) | *Designing Data-Intensive Applications* — Martin Kleppmann. The foundations of scalable, reliable data systems. | Designing systems around data: storage, scaling, consistency, and distribution. |
-| [`refactoring`](skills/refactoring/SKILL.md) | *Refactoring* — Martin Fowler. Code smells and the refactorings that fix them. | Cleaning up existing code and keeping new code readable and maintainable. |
-| [`dont-make-me-think`](skills/dont-make-me-think/SKILL.md) | *Don't Make Me Think* — Steve Krug. Common-sense web usability and interface design. | Building frontend UI/UX: navigation, scannable layouts, forms, and accessibility. |
-| [`the-pragmatic-programmer`](skills/the-pragmatic-programmer/SKILL.md) | *The Pragmatic Programmer* — David Thomas & Andrew Hunt. Timeless engineering philosophy and craftsmanship. | Writing decoupled, testable, adaptable code and making pragmatic day-to-day design decisions. |
+| [`book-ai-engineering`](skills/book-ai-engineering/SKILL.md) | *AI Engineering* — Chip Huyen. Building reliable applications on top of foundation models. | Working with LLMs: prompts, structured outputs, evaluation, and reliability. |
+| [`book-the-engineers-guide-to-rag`](skills/book-the-engineers-guide-to-rag/SKILL.md) | *The Engineer's Guide to RAG* — Shivani Virdi. Practical retrieval-augmented generation. | Building or improving a RAG pipeline: chunking, retrieval, and grounded answers. |
+| [`book-designing-data-intensive-applications`](skills/book-designing-data-intensive-applications/SKILL.md) | *Designing Data-Intensive Applications* — Martin Kleppmann. The foundations of scalable, reliable data systems. | Designing systems around data: storage, scaling, consistency, and distribution. |
+| [`book-refactoring`](skills/book-refactoring/SKILL.md) | *Refactoring* — Martin Fowler. Code smells and the refactorings that fix them. | Cleaning up existing code and keeping new code readable and maintainable. |
+| [`book-dont-make-me-think`](skills/book-dont-make-me-think/SKILL.md) | *Don't Make Me Think* — Steve Krug. Common-sense web usability and interface design. | Building frontend UI/UX: navigation, scannable layouts, forms, and accessibility. |
+| [`book-the-pragmatic-programmer`](skills/book-the-pragmatic-programmer/SKILL.md) | *The Pragmatic Programmer* — David Thomas & Andrew Hunt. Timeless engineering philosophy and craftsmanship. | Writing decoupled, testable, adaptable code and making pragmatic day-to-day design decisions. |
 
 ## Install
 
@@ -44,17 +44,17 @@ cp -r skills/* ~/.cursor/skills/
 mkdir -p .cursor/skills && cp -r skills/* .cursor/skills/
 ```
 
-Copy a single book instead of all of them by naming its folder, e.g. `cp -r skills/refactoring ~/.claude/skills/`.
+Copy a single book instead of all of them by naming its folder, e.g. `cp -r skills/book-refactoring ~/.claude/skills/`.
 
 ## Usage
 
-Because there is one skill per book, you can **call a book by name** whenever you want its perspective:
+Because there is one skill per book, you can **call a book by name** whenever you want its perspective. All skills share the `book-` prefix, so typing `/book-` surfaces the full set:
 
-> Use the `refactoring` skill on `src/billing/invoice.ts`.
+> Use the `book-refactoring` skill on `src/billing/invoice.ts`.
 
-> Review this component with `dont-make-me-think`.
+> Review this component with `book-dont-make-me-think`.
 
-> Apply `designing-data-intensive-applications` to this partitioning plan.
+> Apply `book-designing-data-intensive-applications` to this partitioning plan.
 
 Each skill also carries a description saying what it covers and when it applies, so your agent can pull the right book in on its own when the task obviously calls for it. Only the name and description stay in context; the full rule set loads only when the skill is actually used.
 
@@ -62,7 +62,7 @@ Each skill also carries a description saying what it covers and when it applies,
 
 ```
 skills/
-└── <book-name>/
+└── book-<book-name>/
     └── SKILL.md    # YAML frontmatter (name, description) + the rules
 ```
 
@@ -70,11 +70,11 @@ Frontmatter is deliberately limited to `name` and `description` — the two fiel
 
 ## Naming convention
 
-Skill folders are named after the book, lowercased with hyphens (`the-pragmatic-programmer`, `dont-make-me-think`). The folder name is what you type to invoke the skill, so it stays close to how you'd say the title out loud.
+Skill folders use a `book-` prefix, then the book title lowercased with hyphens (`book-the-pragmatic-programmer`, `book-dont-make-me-think`). The prefix makes the collection easy to discover via `/book-` after install, and the folder name is what you type to invoke the skill.
 
 ## Adding a book
 
-1. Create `skills/<book-name>/SKILL.md`.
+1. Create `skills/book-<book-name>/SKILL.md`.
 2. Add frontmatter with `name` (matching the folder) and a `description` covering both **what** the book teaches and **when** to reach for it.
 3. Distill the book into grouped, bullet-point rules — each one actionable on its own.
 4. Add a row to the table above.
